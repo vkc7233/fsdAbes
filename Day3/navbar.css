@@ -1,0 +1,27 @@
+.heading{
+  font-size: large;
+  background-color: aqua;
+}
+#heading1{
+ color: blueviolet;
+}
+#heading2{
+color: chartreuse;
+}
+div ~p{
+    background-color: aquamarine;
+}
+.fconatiner{
+    display:block;
+}
+.fitem{
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    padding: 20px;
+    margin: 20px;
+    border: 12px;
+    font-size: 20px;
+    text-align: center;
+   border: 12px solid green;
+}
