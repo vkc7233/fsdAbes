@@ -1,0 +1,26 @@
+#heading{
+    background-color: rgb(149, 203, 96);
+    font-size: 60px;
+    text-align: center;
+     color: blueviolet;
+}
+*{
+    margin: 0px;
+    padding: auto;
+}
+table ,tr{
+    background-color: burlywood;
+    border-width: 10px;
+    border-style: groove;
+    width: 100%;
+    border-color: brown;
+    border-radius: 5px;
+}
+#row1{
+    background-color: coral;
+    text-align: center;
+}
+#row2{
+    background-color: rgb(190, 16, 16)
+    text-align: center;
+}
