@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="Script.js"></script>
+</head>
+<body>
+    <!-- <p></p>
+    <p></p>
+    <h1>it is heading</h1>
+    <button onclick="display()">click here</button>
+    <button onclick="changeheader()">click </button>
+    <a href="https://abes.ac.in">Abes</a>
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+    <button onclick="changediv()">div</button> -->
+<p id="res">
+
+</p>
+    <button >
+        click here
+    </button>
+    <button id="btn">
+        click here
+    </button>
+    <input type="text" id="txt">
+    <script>
+        document.getElementById("btn").onclick=()=>
+    {
+        alert("second button");
+
+    }
+        const button=document.querySelector('button');
+        button.addEventListener('click', ()=>{document.getElementById('res').innerHTML="updated"});
+    {
+        document.getElementById('btn').style.translate='30rem 0';
+    }
+
+        let btn=document.getElementById('btn');
+        btn.addEventListener('click', handleclick);
+
+    handlekeypress=(event)=>{
+        document.getElementById('res').innerHTML=`Key pressed ${event.target.value}`;
+    }
+        let myinput=document.getElementById('txt');
+        myinput.addEventListener('keypressed',handlekeypress)
+    </script>
+</body>
+</html>
