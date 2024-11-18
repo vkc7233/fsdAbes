@@ -1,0 +1,27 @@
+.movie-list{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: antiquewhite;
+    justify-content: center;
+}
+.movie-card{
+    width: 30%;
+    margin: 10px;
+    height: 600px;
+    padding: 20px; 
+    border: 10px solid wheat;
+}
+.movie-img{
+    width: 80%;
+    height: 400px;
+    padding:20px;
+    border-radius:10px ;
+    border: 4px solid whitesmoke;
+}
+.movie-list h1{
+    background-color: darkgrey;
+}
+.movie-list h2{
+    background-color: darkgrey;
+}
