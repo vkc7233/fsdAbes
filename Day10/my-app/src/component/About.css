@@ -1,0 +1,37 @@
+.about-container {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-container h1 {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about-container p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .about-container p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .about-container p a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .about-container p a:hover {
+    text-decoration: underline;
+  }
+  
